@@ -11,9 +11,9 @@ imageCaption: The Q100 agricultural drone on display at United Aircraft, Shenzhe
 On the morning of 20 January 2025 we visited **United Aircraft** (联合飞机) in Shenzhen's Longgang District,
 a company that designs and builds **drones and unmanned aircraft**.
 
-<figure>
-  <img src="/assets/img/united-aircraft-sign.jpg" alt="The United Aircraft logo and name on the wall above a reception desk">
-  <figcaption>The reception at United Aircraft.</figcaption>
+<figure style="max-width: 380px; margin-inline: auto">
+  <img src="/assets/img/united-aircraft-julius.jpg" alt="Julius Laggah standing with arms folded in front of the United Aircraft sign at reception">
+  <figcaption>At the United Aircraft reception.</figcaption>
 </figure>
 
 ## About United Aircraft
