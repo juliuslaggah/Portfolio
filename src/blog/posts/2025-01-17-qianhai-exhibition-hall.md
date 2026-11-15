@@ -7,7 +7,7 @@ imageAlt: An illuminated scale model of the Qianhai youth innovation hub campus,
 imageCaption: A scale model of the Qianhai Shenzhen–Hong Kong Youth Innovation and Entrepreneur Hub.
 ---
 
-On the afternoon of 17 January 2025, our last stop in Shenzhen was the **Qianhai Exhibition Hall**
+On the afternoon of 17 January 2025, we visited the **Qianhai Exhibition Hall**
 (前海展示厅) in Qianhai, on the city's western waterfront.
 
 <figure>
@@ -45,5 +45,5 @@ teams.
 - **Ideas for my students.** I want to encourage my ICT students at Limkokwing not only to find jobs, but to
   create them through startups that solve local problems.
 
-This visit was a fitting end to a week that took us from databases and fibre optics to drones, robots and
-smart cities.
+From here we headed down to the waterfront to see the [Shenzhen Bay Bridge](/blog/shenzhen-bay-bridge/),
+which links Shenzhen with Hong Kong.
