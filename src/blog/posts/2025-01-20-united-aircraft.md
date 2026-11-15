@@ -2,19 +2,15 @@
 title: Drones that farm at United Aircraft
 date: 2025-01-20T10:30:00
 summary: Visiting United Aircraft in Shenzhen, a maker of drones and unmanned aircraft, and seeing its Q100 agricultural drone up close.
-image: /assets/img/united-aircraft-q100-drone.jpg
-imageFocus: center 45%
-imageAlt: A large black and white Q100 agricultural drone with four arms and a spray tank, on a round white display stand
-imageCaption: The Q100 agricultural drone on display at United Aircraft, Shenzhen, January 2025.
+image: /assets/img/united-aircraft-julius.jpg
+imageFocus: center 32%
+imageAlt: Julius Laggah standing with arms folded in front of the United Aircraft sign at reception
+imageCaption: At United Aircraft, Shenzhen, January 2025.
 ---
 
 On the morning of 20 January 2025 we visited **United Aircraft** (联合飞机) in Shenzhen's Longgang District,
 a company that designs and builds **drones and unmanned aircraft**.
 
-<figure style="max-width: 380px; margin-inline: auto">
-  <img src="/assets/img/united-aircraft-julius.jpg" alt="Julius Laggah standing with arms folded in front of the United Aircraft sign at reception">
-  <figcaption>At the United Aircraft reception.</figcaption>
-</figure>
 
 ## About United Aircraft
 
@@ -24,6 +20,11 @@ large **tiltrotor** aircraft, which take off like a helicopter and then tilt the
 plane. These aircraft are used for logistics, agriculture, emergency response, power-line inspection and more.
 
 ## The Q100 agricultural drone
+
+<figure>
+  <img src="/assets/img/united-aircraft-q100-drone.jpg" alt="A large black and white Q100 agricultural drone with four arms and a spray tank, on a round white display stand">
+  <figcaption>The Q100 agricultural drone on display.</figcaption>
+</figure>
 
 The star of the showroom was the **Q100 agricultural drone**. It is a heavy-lift drone with four large rotors
 and a spray tank, designed to help farmers with:
