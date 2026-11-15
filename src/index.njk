@@ -1,0 +1,76 @@
+---
+layout: base.njk
+title: Home
+# ---- Edit the home page here ----
+headline: Julius Laggah
+lead: >-
+  Lecturer in the <strong>Department of Information &amp; Communication Technology</strong>
+  at <strong>Limkokwing University</strong>. I teach, mentor and research at the intersection of
+  software engineering, machine learning and human-centred digital systems.
+stats:
+  - { num: "M.Eng", label: "Software Engineering, Nankai University" }
+  - { num: "8+", label: "Years in ICT, data & research" }
+  - { num: "2026", label: "Peer-reviewed publication, IJSAB" }
+  - { num: "AI/ML", label: "Explainable & trustworthy AI focus" }
+---
+<section class="hero">
+  <div class="container hero-inner">
+    <div>
+      <p class="eyebrow">{{ site.role }}</p>
+      <h1>{{ headline }}</h1>
+      <p class="lead">{{ lead | safe }}</p>
+      <div class="hero-actions">
+        <a href="/contact/" class="btn btn-primary">Get in touch</a>
+        <a href="/research/" class="btn btn-ghost">Explore my research</a>
+      </div>
+      <p class="location">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+        {{ site.location }}
+      </p>
+    </div>
+    <div class="hero-photo">
+      <div class="photo-ring">
+        <img src="/assets/img/julius.png" alt="Portrait of {{ site.name }}" width="250" height="250">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <ul class="stats">
+      {%- for s in stats %}
+      <li><span class="stat-num">{{ s.num }}</span><span class="stat-label">{{ s.label }}</span></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="section-kicker">Explore</p>
+        <h2>Get to know my work</h2>
+      </div>
+    </div>
+    <div class="module-grid">
+      {%- for item in site.nav %}
+      <a class="module-card" href="{{ item.url }}">
+        <h3>{{ item.label }}</h3>
+        <p>{{ item.summary }}</p>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+{% set posts = collections.post | newest(3) %}
+{% if posts.length %}
+<section class="section section-tint">
+  <div class="container">
+    <div class="updates-head">
+      <h2>Latest updates</h2>
+      <a class="text-link" href="/blog/">All posts →</a>
+    </div>
+    {% include "components/post-list.njk" %}
+  </div>
+</section>
+{% endif %}

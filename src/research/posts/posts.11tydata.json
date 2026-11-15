@@ -1,0 +1,7 @@
+{
+  "layout": "post.njk",
+  "tags": ["post", "research"],
+  "moduleLabel": "Research",
+  "moduleUrl": "/research/",
+  "permalink": "/research/{{ page.fileSlug }}/"
+}

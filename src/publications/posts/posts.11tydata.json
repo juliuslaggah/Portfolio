@@ -1,0 +1,7 @@
+{
+  "layout": "post.njk",
+  "tags": ["post", "publications"],
+  "moduleLabel": "Publications",
+  "moduleUrl": "/publications/",
+  "permalink": "/publications/{{ page.fileSlug }}/"
+}

@@ -1,0 +1,28 @@
+---
+layout: base.njk
+---
+{#- Layout for a single blog-style post. Set automatically by each posts/ folder. -#}
+<article class="post">
+  <header class="page-hero page-hero-post">
+    <div class="container narrow">
+      <a class="back-link" href="{{ moduleUrl }}">← {{ moduleLabel }}</a>
+      <h1>{{ title }}</h1>
+      <p class="post-meta">
+        <time datetime="{{ page.date | isoDate }}">{{ page.date | readableDate }}</time>
+        <span class="pill">{{ moduleLabel }}</span>
+      </p>
+    </div>
+  </header>
+  {% if image %}
+  <div class="container narrow"><img class="post-cover" src="{{ image }}" alt="{{ imageAlt or '' }}"></div>
+  {% endif %}
+  <div class="section">
+    <div class="container narrow prose">
+      {{ content | safe }}
+    </div>
+  </div>
+  <div class="container narrow post-foot">
+    <a class="btn btn-outline" href="{{ moduleUrl }}">← Back to {{ moduleLabel }}</a>
+    <a class="text-link" href="/blog/">See all posts →</a>
+  </div>
+</article>

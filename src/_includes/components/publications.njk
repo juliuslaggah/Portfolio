@@ -1,0 +1,15 @@
+{#- items: [{ year, title, authors, venue, abstract, link (optional) }]
+    Your own name in "authors" is made bold automatically. -#}
+<div class="pubs">
+  {%- for pub in items %}
+  <article class="pub">
+    <span class="pub-year">{{ pub.year }}</span>
+    <div>
+      <h3>{% if pub.link %}<a href="{{ pub.link }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</h3>
+      <p class="pub-authors">{{ pub.authors | replace("Laggah, J.", "<strong>Laggah, J.</strong>") | safe }}</p>
+      <p class="pub-venue">{{ pub.venue | safe }}</p>
+      {% if pub.abstract %}<p class="pub-abstract">{{ pub.abstract }}</p>{% endif %}
+    </div>
+  </article>
+  {%- endfor %}
+</div>

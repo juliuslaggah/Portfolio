@@ -1,0 +1,14 @@
+{#- Expects a variable called "posts". -#}
+<div class="post-list">
+  {%- for post in posts %}
+  <a class="post-card" href="{{ post.url }}">
+    <div class="post-card-meta">
+      <time datetime="{{ post.date | isoDate }}">{{ post.date | readableDate }}</time>
+      <span class="pill">{{ post.data.moduleLabel }}</span>
+    </div>
+    <h3>{{ post.data.title }}</h3>
+    {% if post.data.summary %}<p>{{ post.data.summary }}</p>{% endif %}
+    <span class="text-link">Read more →</span>
+  </a>
+  {%- endfor %}
+</div>

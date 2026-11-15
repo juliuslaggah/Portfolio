@@ -1,0 +1,15 @@
+{#- Uses the email/location/GitHub from src/_data/site.js -#}
+<div class="contact-grid">
+  <a class="contact-card" href="mailto:{{ site.email }}">
+    <span class="contact-label">Email</span>
+    <span class="contact-value">{{ site.email }}</span>
+  </a>
+  <a class="contact-card" href="{{ site.github }}">
+    <span class="contact-label">GitHub</span>
+    <span class="contact-value">{{ site.github | replace("https://", "") }}</span>
+  </a>
+  <div class="contact-card">
+    <span class="contact-label">Based in</span>
+    <span class="contact-value">{{ site.location }}</span>
+  </div>
+</div>

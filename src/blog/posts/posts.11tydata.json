@@ -1,0 +1,7 @@
+{
+  "layout": "post.njk",
+  "tags": ["post", "blog"],
+  "moduleLabel": "Blog",
+  "moduleUrl": "/blog/",
+  "permalink": "/blog/{{ page.fileSlug }}/"
+}

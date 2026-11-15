@@ -1,0 +1,20 @@
+{#- items: [{ role, org, dates, current, points: [] }] -#}
+<ol class="timeline">
+  {%- for job in items %}
+  <li class="{% if job.current %}current{% endif %}">
+    <div class="tl-meta">
+      <span class="tl-date">{{ job.dates }}</span>
+      {% if job.current %}<span class="badge">Current</span>{% endif %}
+    </div>
+    <div class="tl-body">
+      <h3>{{ job.role }}</h3>
+      <p class="tl-org">{{ job.org }}</p>
+      {% if job.points %}
+      <ul>
+        {%- for p in job.points %}<li>{{ p }}</li>{%- endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </li>
+  {%- endfor %}
+</ol>

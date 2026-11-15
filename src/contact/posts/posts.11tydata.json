@@ -1,0 +1,7 @@
+{
+  "layout": "post.njk",
+  "tags": ["post", "contact"],
+  "moduleLabel": "Contact",
+  "moduleUrl": "/contact/",
+  "permalink": "/contact/{{ page.fileSlug }}/"
+}

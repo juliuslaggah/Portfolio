@@ -1,0 +1,7 @@
+{
+  "layout": "post.njk",
+  "tags": ["post", "education"],
+  "moduleLabel": "Education",
+  "moduleUrl": "/education/",
+  "permalink": "/education/{{ page.fileSlug }}/"
+}

@@ -1,0 +1,54 @@
+---
+layout: base.njk
+---
+{#- Layout for every menu page (About, Teaching, Research ...).
+    The page's own file supplies: title, kicker, intro, component, items, and the Markdown body. -#}
+<section class="page-hero">
+  <div class="container">
+    {% if kicker %}<p class="eyebrow">{{ kicker }}</p>{% endif %}
+    <h1>{{ title }}</h1>
+    {% if intro %}<p class="lead">{{ intro }}</p>{% endif %}
+  </div>
+</section>
+
+{% if content | trim | length %}
+<section class="section">
+  <div class="container">
+    <div class="prose">{{ content | safe }}</div>
+  </div>
+</section>
+{% endif %}
+
+{% if component %}
+<section class="section {% if content | trim | length %}section-tint{% endif %}">
+  <div class="container">
+    {% if componentTitle %}<h2>{{ componentTitle }}</h2>{% endif %}
+    {% include "components/" + component + ".njk" %}
+  </div>
+</section>
+{% endif %}
+
+{#- Blog-style updates: every .md file in this page's posts/ folder shows up here. -#}
+{% if showAllPosts %}
+  {% set posts = collections.post | newest %}
+{% elif module and collections[module] %}
+  {% set posts = collections[module] | newest %}
+{% else %}
+  {% set posts = [] %}
+{% endif %}
+
+{% if posts.length or showAllPosts %}
+<section class="section updates">
+  <div class="container">
+    <div class="updates-head">
+      <h2>{{ updatesTitle or "Latest updates" }}</h2>
+      {% if not showAllPosts %}<a class="text-link" href="/blog/">All posts →</a>{% endif %}
+    </div>
+    {% if posts.length %}
+      {% include "components/post-list.njk" %}
+    {% else %}
+      <p class="muted">No posts yet. Check back soon.</p>
+    {% endif %}
+  </div>
+</section>
+{% endif %}

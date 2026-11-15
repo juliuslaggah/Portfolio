@@ -1,0 +1,7 @@
+{
+  "layout": "post.njk",
+  "tags": ["post", "experience"],
+  "moduleLabel": "Experience",
+  "moduleUrl": "/experience/",
+  "permalink": "/experience/{{ page.fileSlug }}/"
+}

@@ -1,0 +1,5 @@
+{#- items: ["Python", "Machine Learning", ...] ; note: optional line under the chips -#}
+<div class="chips">
+  {%- for i in items %}<span>{{ i }}</span>{%- endfor %}
+</div>
+{% if note %}<p class="muted chips-note">{{ note | safe }}</p>{% endif %}

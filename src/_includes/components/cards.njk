@@ -1,0 +1,17 @@
+{#- items: [{ title, text, tag (optional small label above the title), sub (optional line under the title) }] -#}
+<div class="cards {% if items.length == 2 %}cards-2{% endif %}">
+  {%- for card in items %}
+  <article class="card">
+    {% if card.tag %}<span class="card-tag">{{ card.tag }}</span>{% endif %}
+    <h3>{{ card.title }}</h3>
+    {% if card.sub %}<p class="tl-org">{{ card.sub }}</p>{% endif %}
+    {% if card.text %}<p>{{ card.text }}</p>{% endif %}
+  </article>
+  {%- endfor %}
+</div>
+{% if extra %}
+<h3 class="sub-h">{{ extra.title }}</h3>
+<ul class="plain-list">
+  {%- for e in extra.items %}<li>{{ e | safe }}</li>{%- endfor %}
+</ul>
+{% endif %}
