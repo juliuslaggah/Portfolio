@@ -17,6 +17,7 @@ export default {
     { label: "Experience", url: "/experience/", summary: "From microfinance ICT to research and the lecture hall." },
     { label: "Education", url: "/education/", summary: "M.Eng Software Engineering (Nankai) and B.Sc Computer Science." },
     { label: "Publications", url: "/publications/", summary: "Peer-reviewed articles and research outputs." },
+    { label: "Blog", url: "/blog/", summary: "Visits, events and reflections, with photos." },
     { label: "Contact", url: "/contact/", summary: "Collaborations, guest lectures and supervision." },
   ],
 };

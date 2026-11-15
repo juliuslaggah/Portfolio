@@ -14,7 +14,10 @@ layout: base.njk
     </div>
   </header>
   {% if image %}
-  <div class="container narrow"><img class="post-cover" src="{{ image }}" alt="{{ imageAlt or '' }}"></div>
+  <figure class="container narrow" style="margin-block:0">
+    <img class="post-cover" src="{{ image }}" alt="{{ imageAlt or '' }}">
+    {% if imageCaption %}<figcaption class="post-cover-caption">{{ imageCaption }}</figcaption>{% endif %}
+  </figure>
   {% endif %}
   <div class="section">
     <div class="container narrow prose">

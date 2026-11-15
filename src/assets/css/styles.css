@@ -245,6 +245,9 @@ p { margin: 0 0 1em; }
   text-decoration: none; color: var(--ink); transition: transform .2s, box-shadow .2s;
 }
 .post-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+.post-card-img { width: calc(100% + 48px); max-width: none; margin: -24px -24px 12px; aspect-ratio: 16 / 10; object-fit: cover; border-radius: var(--radius) var(--radius) 0 0; }
+.post-card { overflow: hidden; }
+.post-cover-caption { color: var(--muted); font-size: .9rem; text-align: center; margin: 10px 0 0; }
 .post-card-meta { display: flex; gap: 10px; align-items: center; color: var(--muted); font-size: .85rem; }
 .post-card h3 { margin: 4px 0 0; font-family: var(--serif); font-size: 1.25rem; }
 .post-card p { color: var(--muted); margin: 0; flex: 1; }

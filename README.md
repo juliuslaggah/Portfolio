@@ -13,11 +13,13 @@ so to change a page you only open that page's folder.
 | Experience   | `src/experience/index.md`       | `src/experience/posts/`      |
 | Education    | `src/education/index.md`        | `src/education/posts/`       |
 | Publications | `src/publications/index.md`     | `src/publications/posts/`    |
+| Blog         | `src/blog/index.md`             | `src/blog/posts/`            |
 | Contact      | `src/contact/index.md`          | `src/contact/posts/`         |
 
 - **Name, email, location, menu:** `src/_data/site.js`
 - **Colours and styling:** `src/assets/css/styles.css` (the greens are at the top)
-- **Photo and images:** `src/assets/img/`
+- **All images (profile photo and blog photos):** `src/assets/img/`. Use JPEG or PNG, since most browsers
+  can't show iPhone `.HEIC` files. Name them after the event, e.g. `dameng-visit.jpg`.
 
 Each page file has two parts:
 
@@ -34,8 +36,12 @@ Create a new file in the `posts/` folder of the page it belongs to, e.g.
 title: My new project
 date: 2026-12-01
 summary: One sentence shown on the post card.
-image: /assets/img/my-photo.jpg   # optional cover image
+image: /assets/img/my-photo.jpg   # optional cover image (file lives in src/assets/img/)
+imageAlt: What the photo shows    # optional, for screen readers
+imageCaption: Caption under the photo   # optional
 ---
+
+To add more photos inside the post text: ![Description](/assets/img/another-photo.jpg)
 
 Write your post here in Markdown.
 ```
