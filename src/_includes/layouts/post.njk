@@ -15,7 +15,7 @@ layout: base.njk
   </header>
   {% if image %}
   <figure class="container narrow" style="margin-block:0">
-    <img class="post-cover" src="{{ image }}" alt="{{ imageAlt or '' }}">
+    <img class="post-cover" src="{{ image }}" alt="{{ imageAlt or '' }}"{% if imageFocus %} style="object-position: {{ imageFocus }}"{% endif %}>
     {% if imageCaption %}<figcaption class="post-cover-caption">{{ imageCaption }}</figcaption>{% endif %}
   </figure>
   {% endif %}

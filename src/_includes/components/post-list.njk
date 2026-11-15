@@ -2,7 +2,7 @@
 <div class="post-list">
   {%- for post in posts %}
   <a class="post-card" href="{{ post.url }}">
-    {% if post.data.image %}<img class="post-card-img" src="{{ post.data.image }}" alt="" loading="lazy">{% endif %}
+    {% if post.data.image %}<img class="post-card-img" src="{{ post.data.image }}" alt="" loading="lazy"{% if post.data.imageFocus %} style="object-position: {{ post.data.imageFocus }}"{% endif %}>{% endif %}
     <div class="post-card-meta">
       <time datetime="{{ post.date | isoDate }}">{{ post.date | readableDate }}</time>
       <span class="pill">{{ post.data.moduleLabel }}</span>

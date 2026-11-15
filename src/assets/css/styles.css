@@ -247,6 +247,13 @@ p { margin: 0 0 1em; }
 .post-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
 .post-card-img { width: calc(100% + 48px); max-width: none; margin: -24px -24px 12px; aspect-ratio: 16 / 10; object-fit: cover; border-radius: var(--radius) var(--radius) 0 0; }
 .post-card { overflow: hidden; }
+.post-cover { max-height: 560px; object-fit: cover; }
+/* Photo gallery inside a post: <div class="gallery"> <figure>...</figure> </div> */
+.prose .gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 1.5em 0; }
+.prose .gallery figure { margin: 0; }
+.prose .gallery img { margin: 0; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
+.prose figcaption { color: var(--muted); font-size: .88rem; margin-top: 8px; text-align: center; }
+@media (max-width: 600px) { .prose .gallery { grid-template-columns: 1fr; } }
 .post-cover-caption { color: var(--muted); font-size: .9rem; text-align: center; margin: 10px 0 0; }
 .post-card-meta { display: flex; gap: 10px; align-items: center; color: var(--muted); font-size: .85rem; }
 .post-card h3 { margin: 4px 0 0; font-family: var(--serif); font-size: 1.25rem; }
