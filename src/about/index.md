@@ -34,3 +34,12 @@ I enjoy translating complex technical ideas into clear, usable applications and 
 Today I am a **Lecturer in the Department of Information & Communication Technology at Limkokwing University**,
 where I am passionate about teaching, student mentorship and applied research, and about bringing emerging
 technologies into science and technology education.
+
+## Teaching
+
+My teaching draws on industry experience in ICT systems, data analytics and research, so students see how
+classroom concepts apply to real problems in Sierra Leone and beyond.
+
+- **Software Engineering**: programming, web application development, databases and sound engineering practice, grounded in real projects.
+- **AI & Machine Learning**: hands-on Python, machine learning and data analysis, with emphasis on explainable, trustworthy and responsible AI.
+- **Research Mentorship**: guiding students through quantitative and qualitative research methods, from problem framing to evidence-based findings.

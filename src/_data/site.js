@@ -12,8 +12,7 @@ export default {
   // The menu. Each item points at a folder in src/ (e.g. /research/ -> src/research/).
   // "summary" is the short text shown on the home page card for that section.
   nav: [
-    { label: "About", url: "/about/", summary: "Who I am, what drives my work, and my core skills." },
-    { label: "Teaching", url: "/teaching/", summary: "What I teach at Limkokwing and how I support students." },
+    { label: "About", url: "/about/", summary: "Who I am, how I teach at Limkokwing, and my core skills." },
     { label: "Research", url: "/research/", summary: "Human-centred, explainable and trustworthy AI." },
     { label: "Experience", url: "/experience/", summary: "From microfinance ICT to research and the lecture hall." },
     { label: "Education", url: "/education/", summary: "M.Eng Software Engineering (Nankai) and B.Sc Computer Science." },

@@ -9,7 +9,6 @@ so to change a page you only open that page's folder.
 |--------------|---------------------------------|------------------------------|
 | Home         | `src/index.njk` (top section)   | (shows the 3 newest posts)   |
 | About        | `src/about/index.md`            | `src/about/posts/`           |
-| Teaching     | `src/teaching/index.md`         | `src/teaching/posts/`        |
 | Research     | `src/research/index.md`         | `src/research/posts/`        |
 | Experience   | `src/experience/index.md`       | `src/experience/posts/`      |
 | Education    | `src/education/index.md`        | `src/education/posts/`       |
