@@ -1,19 +1,20 @@
 ---
 title: A visit to ZTE Corporation
 date: 2025-01-16T16:00:00
-summary: Visiting one of the world's major telecommunications companies, whose networks connect operators across Africa and beyond.
+summary: Visiting one of the world's major telecommunications companies in Shenzhen, whose networks connect operators across Africa and beyond.
 image: /assets/img/zte-corporation-sign.jpg
 imageFocus: center 45%
 imageAlt: Julius Laggah standing beneath the ZTE Corporation sign
-imageCaption: At ZTE Corporation, January 2025.
+imageCaption: At ZTE Corporation, Shenzhen, January 2025.
 ---
 
-To round off the week, I visited **ZTE Corporation** (中兴通讯), one of the world's major providers of
-information and communication technology.
+To round off the week, after our morning at the [Longhua Future City Exhibition Hall](/blog/longhua-future-city/),
+I visited **ZTE Corporation** (中兴通讯) in **Shenzhen**, one of the world's major providers of information
+and communication technology.
 
 ## About ZTE
 
-ZTE was founded in **1985** and is headquartered in **Shenzhen**. It is listed on both the Shenzhen and
+ZTE was founded in **1985** and is headquartered here in Shenzhen. It is listed on both the Shenzhen and
 Hong Kong stock exchanges. The company builds the equipment behind modern networks: 4G and 5G mobile
 infrastructure, optical and core networks, data centres and computing, and consumer devices such as
 smartphones and routers. Its products serve telecom operators in Asia, Europe, Latin America and across
