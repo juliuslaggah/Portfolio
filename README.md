@@ -14,7 +14,6 @@ so to change a page you only open that page's folder.
 | Experience   | `src/experience/index.md`       | `src/experience/posts/`      |
 | Education    | `src/education/index.md`        | `src/education/posts/`       |
 | Publications | `src/publications/index.md`     | `src/publications/posts/`    |
-| Blog         | `src/blog/index.md`             | `src/blog/posts/`            |
 | Contact      | `src/contact/index.md`          | `src/contact/posts/`         |
 
 - **Name, email, location, menu:** `src/_data/site.js`
@@ -43,8 +42,7 @@ Write your post here in Markdown.
 ```
 
 It automatically appears:
-- on that page (e.g. Research) under **Latest updates**,
-- on the **Blog** page with all posts, and
+- on that page (e.g. Research) under **Latest updates**, and
 - on the **Home** page if it's one of the 3 newest.
 
 Its web address is `/<page>/<file-name-without-date>/`, e.g. `/research/my-new-project/`.
