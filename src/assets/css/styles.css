@@ -251,6 +251,7 @@ p { margin: 0 0 1em; }
 /* Photo gallery inside a post: <div class="gallery"> <figure>...</figure> </div> */
 .prose .gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 1.5em 0; }
 .prose .gallery figure { margin: 0; }
+.prose .gallery.landscape img { aspect-ratio: 4 / 3; }
 .prose .gallery img { margin: 0; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
 .prose figure { margin: 1.5em 0; }
 .prose video { display: block; width: 100%; max-height: 520px; object-fit: cover; border-radius: var(--radius); background: var(--green-950); }
