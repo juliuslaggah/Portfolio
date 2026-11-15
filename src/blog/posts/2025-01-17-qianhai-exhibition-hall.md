@@ -2,18 +2,14 @@
 title: Qianhai, Shenzhen's launchpad for young innovators
 date: 2025-01-17T15:00:00
 summary: At the Qianhai Exhibition Hall in Shenzhen, learning how a special cooperation zone and its youth hub help young entrepreneurs turn ideas into companies.
-image: /assets/img/qianhai-youth-hub-model.jpg
-imageAlt: An illuminated scale model of the Qianhai youth innovation hub campus, with buildings, trees, roads and a metro station
-imageCaption: A scale model of the Qianhai Shenzhen–Hong Kong Youth Innovation and Entrepreneur Hub.
+image: /assets/img/qianhai-julius.jpg
+imageFocus: center 40%
+imageAlt: Julius Laggah standing beneath the Qianhai Exhibition Hall sign
+imageCaption: Outside the Qianhai Exhibition Hall, Shenzhen, January 2025.
 ---
 
 On the afternoon of 17 January 2025, we visited the **Qianhai Exhibition Hall**
 (前海展示厅) in Qianhai, on the city's western waterfront.
-
-<figure>
-  <img src="/assets/img/qianhai-exhibition-hall-sign.jpg" alt="Gold lettering reading Qianhai Exhibition Hall on a dark metal wall">
-  <figcaption>The Qianhai Exhibition Hall.</figcaption>
-</figure>
 
 ## What is Qianhai?
 
@@ -30,6 +26,11 @@ and Entrepreneur Hub**, known as **E Hub**. It opened in December 2014 to help y
 Macao and around the world start businesses in mainland China. It offers office space, mentoring, funding
 links and support with regulations. According to recent reports, it has incubated more than 1,500 startup
 teams.
+
+<figure>
+  <img src="/assets/img/qianhai-youth-hub-model.jpg" alt="An illuminated scale model of the Qianhai youth innovation hub campus, with buildings, trees, roads and a metro station">
+  <figcaption>A scale model of the Qianhai Shenzhen–Hong Kong Youth Innovation and Entrepreneur Hub.</figcaption>
+</figure>
 
 <figure>
   <img src="/assets/img/qianhai-youth-hub-plaques.jpg" alt="Brass plaques on the model naming the site a national youth entrepreneurship demonstration park and a Guangdong–Hong Kong–Macao youth innovation base">

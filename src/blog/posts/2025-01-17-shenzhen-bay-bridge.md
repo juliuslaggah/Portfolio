@@ -2,9 +2,9 @@
 title: The Shenzhen Bay Bridge, a road between two systems
 date: 2025-01-17T15:30:00
 summary: Looking out at the Shenzhen Bay Bridge, the Western Corridor that links Shenzhen with Hong Kong across Deep Bay.
-image: /assets/img/shenzhen-bay-bridge-julius.jpg
-imageFocus: center 45%
-imageAlt: Julius Laggah leaning on a railing by the water, looking out towards the Shenzhen Bay Bridge
+image: /assets/img/shenzhen-bay-bridge-arms-wide.jpg
+imageFocus: center 60%
+imageAlt: Julius Laggah standing at the waterfront railing with arms spread wide, facing the Shenzhen Bay Bridge
 imageCaption: Looking out at the Shenzhen Bay Bridge from the Shenzhen waterfront, January 2025.
 ---
 
@@ -27,8 +27,8 @@ Just after our Qianhai visit, we walked to the waterfront to see the **Shenzhen 
   at the Shenzhen Bay Port.
 
 <figure style="max-width: 420px; margin-inline: auto">
-  <img src="/assets/img/shenzhen-bay-bridge-promenade.jpg" alt="Julius Laggah standing at the waterfront railing with the bridge's tower in the distance">
-  <figcaption>Taking in the view from the promenade.</figcaption>
+  <img src="/assets/img/shenzhen-bay-bridge-portrait.jpg" alt="Julius Laggah leaning on the waterfront railing, smiling over his shoulder, with the bay behind him">
+  <figcaption>Enjoying the afternoon sun on the promenade.</figcaption>
 </figure>
 
 ## What I took away
